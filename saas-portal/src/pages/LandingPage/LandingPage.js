@@ -8,6 +8,7 @@ import InternHowItWorks from "../../components/InternHowItWorks/InternHowItWorks
 import Stat from "../../components/Stat/Stat";
 import InternFAQs from "../../components/InternFAQs/InternFAQs";
 import InternTestimonials from "../../components/InternTestimonials/InternTestimonials";
+import Footer from "../../components/Footer/Footer";
 
 function LandingPage() {
     return (
@@ -19,6 +20,7 @@ function LandingPage() {
             {/* <InternCTA /> */}
             <InternTestimonials />
             <InternFAQs />
+            <Footer />
         </>
     );
 }
