@@ -7,7 +7,7 @@ function InternHowItWorks() {
                 <section className="mx-auto container pt-20">
                     <div className="px-4 lg:px-0">
                         <div className="flex items-center flex-col px-4">
-                            <h2 className="text-4xl lg:text-5xl pt-4 font-extrabold text-center leading-tight text-gray-800 lg:w-7/12 md:w-9/12">No more busy paper-work internships. This is the real deal.</h2>
+                            <h2 className="text-4xl lg:text-5xl pt-4 font-extrabold text-center leading-tight text-gray-800 lg:w-9/12 md:w-9/12">No more busy paper-work internships.<br/> This is the real deal.</h2>
                         </div>
                     </div>
                 </section>

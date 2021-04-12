@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from "./logo.png";
+import logo from "../../assets/images/logo.png";
 
 function LandingNavbar() {
     const [show, setShow] = useState(false);
@@ -35,7 +35,7 @@ function LandingNavbar() {
                                     </a>
                                 </li>
                                 <li className="flex items-center">
-                                    <button className="focus:outline-none transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-3 text-sm mt-10 md:mt-0">Sign In</button>
+                                    <button className="focus:outline-none transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-3 text-sm mt-10 md:mt-0"><a href="/signin">Sign in</a></button>
                                 </li>
                             </ul>
                         </div>
