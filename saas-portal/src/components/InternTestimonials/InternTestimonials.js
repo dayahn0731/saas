@@ -132,10 +132,12 @@ function InternTestimonials() {
                                                     <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(255,255,255,1)" />
                                                 </svg>
                                             </div>
-                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                            <div className="flex flex-col">
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
-                                                <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
+                                            <div className="flex items-center">
+                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <div className="flex flex-col text-white">
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
+                                                </div>
                                             </div>
                                             <p className="text-base f-m-m mt-3 text-white">-------.</p>
                                         </div>
@@ -147,10 +149,12 @@ function InternTestimonials() {
                                                 <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
                                             </svg>
                                         </div>
-                                        <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                        <div className="flex flex-col">
-                                            <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
-                                            <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                        <div className="flex items-center">
+                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                            <div className="flex flex-col">
+                                                <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
+                                                <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                            </div>
                                         </div>
                                         <p className="text-base f-m-m mt-3">------.</p>
                                     </div>
@@ -171,9 +175,12 @@ function InternTestimonials() {
                                             </div>
                                             <div className="flex items-center">
                                                 <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
+                                                <div className="flex flex-col">
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
+                                                </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3">--------.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -182,11 +189,14 @@ function InternTestimonials() {
                                                     <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(255,255,255,1)" />
                                                 </svg>
                                             </div>
-                                            <div className="flex items-center">
+                                            <div className="flex items-center text-white">
                                                 <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                                <h2 className="text-base f-m-m ml-4 font-semibold text-white">Jane Doe</h2>
+                                                <div className="flex flex-col">
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                                </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3">--------.</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -198,9 +208,12 @@ function InternTestimonials() {
                                         </div>
                                         <div className="flex items-center">
                                             <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                            <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
+                                            <div className="flex flex-col">
+                                                <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
+                                                <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                            </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                        <p className="text-base f-m-m mt-3">--------.</p>
                                     </div>
                                 </div>
                             </div>

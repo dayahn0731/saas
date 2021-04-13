@@ -12,7 +12,7 @@ function InternCTA() {
                                 <div className="pl-4">
                                     <h3 className="text-xl  xl:text-4xl font-bold lg:leading-tight text-gray-800">Ready to change the status quo?</h3>
                                     <p className="text-base xl:text-xl text-gray-600 xl:leading-normal pt-4">During our program you are matched with a CMU, MIT, Stanford or YC startup for 12 weeks to meaningfully contribute alongside seasoned engineers in a challenging, fast-paced, industry environment.</p>
-                                    <button className="my-4 lg:my-8 lg:mb-0 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 focus:outline-none rounded text-white py-2 px-4  xl:px-8 xl:py-4 text-lg xl:text-2xl"> Sign up today!</button>
+                                    <button className="my-4 lg:my-8 lg:mb-0 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 focus:outline-none rounded text-white py-2 px-4  xl:px-8 xl:py-4 text-lg xl:text-2xl"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Sign up today!</a></button>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0 mt-12">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700"><a href="https://bit.ly/3b1nS1R">Just started learning CS? Don't worry, check this out!</a></h3>
                                         <div className="pl-2">
