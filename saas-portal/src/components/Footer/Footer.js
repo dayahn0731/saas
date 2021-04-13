@@ -19,9 +19,6 @@ function Footer() {
                             <li className="text-gray-800 hover:text-gray-900 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0">
                                 <a href>Security</a>
                             </li>
-                            <li className="text-gray-800 hover:text-gray-900 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0">
-                                <a href="javascript:void(0)">Sitemap</a>
-                            </li>
                         </ul>
                     </div>
                 </div>

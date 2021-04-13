@@ -62,11 +62,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
                                                 <div className="flex flex-col">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">Past Intern, Student @ TJ, Incoming @ Berkeley</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Anika Thatavarthy</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">17 y/o, Thomas Jefferson</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3">I got so much <b>ownership</b> on what I was working on - something that you don't always get. My intern project was <b>extremely personalized & catered</b> to my core skills & interests.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -77,9 +77,12 @@ function InternTestimonials() {
                                             </div>
                                             <div className="flex items-center">
                                                 <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                                <h2 className="text-base f-m-m ml-4 font-semibold text-white">Jane Doe</h2>
+                                                <div className="flex flex-col text-white">
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Tajwar Rahman</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High</h3>
+                                                </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3 text-white">Slingshot is a <b>win-win</b> - You get to intern and learn under <b>brilliant people</b> who went to <b>top colleges</b> and <b>great companies</b>. To top it off, it's <b>100% free</b>.</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -91,9 +94,12 @@ function InternTestimonials() {
                                         </div>
                                         <div className="flex items-center">
                                             <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                            <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
+                                            <div className="flex flex-col">
+                                                <h2 className="text-base f-m-m ml-4 font-semibold">Aditi</h2>
+                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High</h3>
+                                            </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                        <p className="text-base f-m-m mt-3">Working at Slingshot has been an <b>extremely rewarding</b> experience - I’ve learned more from my 3 months as an intern here than <b>any other program or camp</b> I’ve attended.</p>
                                     </div>
                                 </div>
                                 <div
@@ -112,9 +118,12 @@ function InternTestimonials() {
                                             </div>
                                             <div className="flex items-center">
                                                 <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
+                                                <div className="flex flex-col">
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold">David Chen</h2>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High school</h3>
+                                                </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3">Slingshot is bringing students with <b>shared passions</b> together to learn and contribute to amazing startups. It is a great place for <b>collaboration</b> and finding what you love.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -123,11 +132,12 @@ function InternTestimonials() {
                                                     <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(255,255,255,1)" />
                                                 </svg>
                                             </div>
-                                            <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                                <h2 className="text-base f-m-m ml-4 font-semibold text-white">Jane Doe</h2>
+                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                            <div className="flex flex-col">
+                                                <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
+                                                <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                            <p className="text-base f-m-m mt-3 text-white">-------.</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -137,11 +147,12 @@ function InternTestimonials() {
                                                 <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
                                             </svg>
                                         </div>
-                                        <div className="flex items-center">
-                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
-                                            <h2 className="text-base f-m-m ml-4 font-semibold">Jane Doe</h2>
+                                        <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                        <div className="flex flex-col">
+                                            <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
+                                            <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">Greatest appreciation to you and your team for the outstanding job you did for us. The website is just what we wanted, and we were thrilled with the speed your team exercised. </p>
+                                        <p className="text-base f-m-m mt-3">------.</p>
                                     </div>
                                 </div>
                                 <div
@@ -197,7 +208,7 @@ function InternTestimonials() {
                     </div>
                     <div className="lg:w-1/2 lg:pl-24 xl:pl-48">
                         <h1 className="lg:text-5xl text-2xl f-m-w text-white font-bold">We can't stop hearing...</h1>
-                        <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
+                        <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
                         <div className="flex items-center">
                             <div id="prev" className="cursor-pointer w-12 h-12 flex items-center justify-center rounded-full border border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">

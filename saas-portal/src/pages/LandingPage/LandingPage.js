@@ -3,12 +3,13 @@ import React from "react";
 // components
 import LandingNavbar from "../../components/LandingNavbar/LandingNavbar"
 import Hero from "../../components/Hero/Hero"
-// import InternCTA from "../../components/InternCTA/InternCTA";
+import InternCTA from "../../components/InternCTA/InternCTA";
 import InternHowItWorks from "../../components/InternHowItWorks/InternHowItWorks";
 import Stat from "../../components/Stat/Stat";
 import InternFAQs from "../../components/InternFAQs/InternFAQs";
 import InternTestimonials from "../../components/InternTestimonials/InternTestimonials";
 import Footer from "../../components/Footer/Footer";
+import InternPrograms from "../../components/InternPrograms/InternPrograms";
 
 function LandingPage() {
     return (
@@ -17,7 +18,8 @@ function LandingPage() {
             <Hero />
             <InternHowItWorks />
             <Stat />
-            {/* <InternCTA /> */}
+            <InternCTA />
+            {/* <InternPrograms /> */}
             <InternTestimonials />
             <InternFAQs />
             <Footer />

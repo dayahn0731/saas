@@ -4,10 +4,10 @@ function InternFAQs() {
     const [show, setShow] = useState(null);
     return (
         <>
-            <div className="mx-auto container f-f-p px-4 xl:px-0 my-24">
+            <div className="mx-auto container f-f-p px-4 xl:px-0 my-24 mb-0">
                 <h1 className="text-center text-gray-800 text-2xl lg:text-5xl font-bold tracking-wider leading-10">FAQs</h1>
                 <h2 className="text-center text-gray-700 text-base lg:text-lg tracking-wide mt-5">Slingshot is too good to be true. Tell me more!</h2>
-                <div className="lg:flex flex-wrap py-8 md:py-10 lg:py-14  xl:py-20 text-lg">
+                <div className="lg:flex flex-wrap py-8 md:py-10 lg:py-14 xl:py-20 text-lg">
                     <div className="lg:w-1/2 lg:pr-6">
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
@@ -61,7 +61,7 @@ function InternFAQs() {
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I'm international, can I still apply?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 2 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -79,15 +79,14 @@ function InternFAQs() {
                             {show === 2 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Yes, ofcourse, just make note of the requirements and restrictions of particular startups.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I represent a high school. How can I work with you?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 3 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -105,8 +104,7 @@ function InternFAQs() {
                             {show === 3 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to info@slingshotmentoring.com to schedule a meeting!</p>
                                     </li>
                                 </ul>
                             )}
@@ -115,7 +113,7 @@ function InternFAQs() {
                     <div className="lg:w-1/2 lg:pl-6">
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I'm a startup and would love to hire talent!</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 4 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -133,15 +131,14 @@ function InternFAQs() {
                             {show === 4 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Amazing. While our startup page is under progress, we're still fully ready to work with you. Email us at info@slingshotmentoring.com to set up a meeting today.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">Who runs Slingshot?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 5 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -159,15 +156,14 @@ function InternFAQs() {
                             {show === 5 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Graduates from the top CS universities in the world who were once high schoolers and would have loved something like Slingshot in the world.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">How is Slingshot any different?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 6 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -185,15 +181,14 @@ function InternFAQs() {
                             {show === 6 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Unlike other education programs that charge kids 1000s of dollars and hand a certificate, at Slingshot we've flipped the bottle and change the game. We truly respect high school talent for what it's worth. Jump on!</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Which are the network hospitals in your vicinity?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I love the mission. Can I join the team?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 7 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -211,8 +206,7 @@ function InternFAQs() {
                             {show === 7 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="text-gray-800 text-lg xl:w-10/12 w-full mb-4">What does lorem ipsum actually mean?</p>
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100% We're always looking for motivated folks who want to change the world with us. Send an email at info@slingshotmentoring.com</p>
                                     </li>
                                 </ul>
                             )}

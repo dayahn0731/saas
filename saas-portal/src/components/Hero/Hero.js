@@ -3,6 +3,9 @@ import React from "react";
 // routes
 import * as routes from "../../routes"
 
+// ui elements
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
+
 function Hero() {
     return (
         <>
@@ -11,7 +14,7 @@ function Hero() {
                     <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                         <div className="flex flex-col lg:w-8/12 md:w-8/12 px-4 lg:px-0 justify-center">
                             <h1 className="text-4xl sm:text-5xl md:text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800">The world's premier platform for high school engineers, hackers &amp; hustlers</h1>
-                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4">Are you itching to make real-world impact at a CMU, MIT, Stanford startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the status quo.</p>
+                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-4/6">Are you itching to make real-world impact at a CMU, MIT, Stanford startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the status quo.</p>
                             <div className="mt-12 flex flex-wrap">
                                 <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0">
                                     <button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl">Get started</button>
@@ -21,11 +24,42 @@ function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <div className="transition ease-in duration-700 mt-6 md:mt-0 h-64 md:h-auto md:w-1/2 relative lg:mt-0 pl-6 sm:pl-20 pt-10 flex justify-end sm:block">
-                            <div className="ml-12 -mb-32 absolute left-10 w-5/6 h-full">
-                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-full h-full" src="https://tuk-cdn.s3.amazonaws.com/assets/components/hero/h_4.png" alt="Coffee" />
+                        <div className="mt-6 md:mt-0 h-64 md:h-auto md:w-1/2 relative lg:mt-0 pl-6 sm:pl-20 pt-10 flex justify-end sm:block">
+                            <div className="-mb-32 absolute left-10 w-5/6 h-5/6 z-20">
+                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-11/12 h-full" src="https://tuk-cdn.s3.amazonaws.com/assets/components/hero/h_4.png" alt="Coffee" />
+                                {/* <CarouselProvider naturalSlideWidth={100} naturalSlideHeight={125} totalSlides={2} isIntrinsicHeight={true}>
+                                    <Slider>
+                                        <Slide index={0}>
+                                            <img src="https://cdn.tuk.dev/assets/templates/classified/Mask.png" className="w-full absolute h-full z-20" />
+                                        </Slide>
+                                        <Slide index={1}>
+                                            <img src="https://cdn.tuk.dev/assets/templates/classified/Mask.png" className="w-full absolute h-full z-20" />
+                                        </Slide>
+                                    </Slider>
+                                    <div className="relative w-full h-64">
+                                        <div className="flex items-center inset-0 absolute justify-between px-2">
+                                            <ButtonBack>
+                                                <div className="w-6 h-6 relative bg-white rounded-full flex inset-0 items-center justify-center cursor-pointer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <polyline points="15 6 9 12 15 18" />
+                                                    </svg>
+                                                </div>
+                                            </ButtonBack>
+                                            <ButtonNext>
+                                                {" "}
+                                                <div className="w-6 h-6 relative bg-white rounded-full flex inset-0 items-center justify-center cursor-pointer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                                        <polyline points="9 6 15 12 9 18" />
+                                                    </svg>
+                                                </div>
+                                            </ButtonNext>
+                                        </div>
+                                    </div>
+                                </CarouselProvider> */}
                             </div>
-                            <div className="absolute h-full w-full top-0 left-12 flex flex-col items-start">
+                            <div className="absolute h-full w-6/12 top-0 left-12 flex flex-col items-start">
                                 <svg width={285} height={462} xmlns="http://www.w3.org/2000/svg">
                                     <g fill="#667EEA" fillRule="evenodd">
                                         <g>
