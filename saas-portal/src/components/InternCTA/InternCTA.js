@@ -33,11 +33,11 @@ function InternCTA() {
                                 <div className="flex flex-col items-center pt-2 sm:pt-8 lg:pt-2 pr-2 lg:pr-0">
                                     <div className="mt-8">
                                         <h1 className="font-bold text-indigo-900 text-lg">1. Sign up</h1>
-                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">And browse amazing startups and community member profiles.</h2>
+                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">View our exclusive startup portfolio.</h2>
                                     </div>
                                     <div className="pt-8 sm:pt-16 mt-10 lg:pt-8">
                                         <h1 className="font-bold text-indigo-900 text-lg">3. Find a match!</h1>
-                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">Find your perfect place to intern.</h2>
+                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">Find your perfect place to intern. </h2>
                                     </div>
                                 </div>
                                 <div>
