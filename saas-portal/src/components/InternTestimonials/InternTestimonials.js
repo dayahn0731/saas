@@ -1,4 +1,13 @@
 import React, { useEffect } from "react";
+
+import davidPic from "./assets/david.png";
+import tajwarPic from "./assets/tajwar.png";
+import anikaPic from "./assets/anika.png";
+import aditiPic from "./assets/aditi.png";
+import antonioPic from "./assets/antonio.png";
+import prashilPic from "./assets/prashil.png";
+import emptyPic from "./assets/empty.jpg";
+
 function InternTestimonials() {
     useEffect(() => {
         let slides = document.querySelectorAll(".slide-ana>div");
@@ -60,7 +69,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={anikaPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" />
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anika Thatavarthy</h2>
                                                     <h3 className="text-sm f-m-m ml-4">17 y/o, Thomas Jefferson</h3>
@@ -76,10 +85,10 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={tajwarPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Tajwar Rahman</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High</h3>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High school</h3>
                                                 </div>
                                             </div>
                                             <p className="text-base f-m-m mt-3 text-white">Slingshot is a <b>win-win</b> - You get to intern and learn under <b>brilliant people</b> who went to <b>top colleges</b> and <b>great companies</b>. To top it off, it's <b>100% free</b>.</p>
@@ -93,10 +102,10 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                            <img src={aditiPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Aditi</h2>
-                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High</h3>
+                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High school</h3>
                                             </div>
                                         </div>
                                         <p className="text-base f-m-m mt-3">Working at Slingshot has been an <b>extremely rewarding</b> experience - I’ve learned more from my 3 months as an intern here than <b>any other program or camp</b> I’ve attended.</p>
@@ -117,7 +126,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={davidPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">David Chen</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High school</h3>
@@ -133,13 +142,13 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={emptyPic} width={32} height={32} viewBox="0 0 32 32" className="rounded-full"/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Gems Modern, Dubai</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">-------.</p>
+                                            <p className="text-base f-m-m mt-3 text-white">The Slingshot community is amazingly inclusive and growth oriented. I certainly fit in instantly. Beyond the programming experience, Slingshot helped me grow as a team player!</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -150,13 +159,13 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                            <img src={antonioPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
-                                                <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                                <h3 className="text-sm f-m-m ml-4">17 y/o, GSMST</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">------.</p>
+                                        <p className="text-base f-m-m mt-3">At Slingshot, I collaborated with a group of like-minded peers who were all extremely passionate about the startup we were interning at. Slingshot is exactly what I was always waiting for!</p>
                                     </div>
                                 </div>
                                 <div
@@ -174,13 +183,13 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
                                                     <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">--------.</p>
+                                            <p className="text-base f-m-m mt-3">My work at Slingshot has allowed me to explore domains in tech I hadn't even dreamt of. It was a true industry experience that allowed me to really discover my true potential as a software engineer.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -190,16 +199,16 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center text-white">
-                                                <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                                    <h3 className="text-sm f-m-m ml-4">17 y/o, John P. Stevens High</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">--------.</p>
+                                            <p className="text-base f-m-m mt-3 text-white">I'm really out of words here. Great mentorship. Great experience. Great community. Slingshot is unlike anything out there. If you're not here, I dunno what you're doing.</p>
                                         </div>
                                     </div>
-                                    <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
+                                    <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6 pb-64">
                                         <div className="absolute right-0 top-0 -mt-6">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                 <path fill="none" d="M0 0h24v24H0z" />
@@ -207,13 +216,13 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src="https://cdn.tuk.dev/assets/components/111220/tst-15/Ellipse 7.png" />
+                                            <img src={prashilPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                             <div className="flex flex-col">
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
-                                                <h3 className="text-sm f-m-m ml-4">15 y/o, GSMST</h3>
+                                                <h2 className="text-base f-m-m ml-4 font-semibold">Prashil A.</h2>
+                                                <h3 className="text-sm f-m-m ml-4">17 y/o, Gems United, Dubai</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">--------.</p>
+                                        <p className="text-base f-m-m mt-3 pb-16">Applying to Slingshot was a no-brainer. At Slingshot, I've been able to develop industry tools for real companies to use. Such a professional experience, so early on.</p>
                                     </div>
                                 </div>
                             </div>
