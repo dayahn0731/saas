@@ -29,14 +29,15 @@ function LandingNavbar() {
                                 </svg>
                             </div>
                             <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-gray-100 z-20">
-                                <li className="md:mr-8 lg:mr-10 flex items-center">
+                                {/* Commented till portal + hire talent pages are ready */}
+                                {/* <li className="md:mr-8 lg:mr-10 flex items-center">
                                     <a className="text-gray-800 hover:text-gray-600 pt-10 md:pt-0" href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">
                                         Hire Talent
                                     </a>
-                                </li>
-                                <li className="flex items-center">
+                                </li> */}
+                                {/* <li className="flex items-center">
                                     <button className="focus:outline-none transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-3 text-sm mt-10 md:mt-0"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Sign In</a></button>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
