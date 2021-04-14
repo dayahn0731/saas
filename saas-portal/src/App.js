@@ -13,7 +13,7 @@ import LandingPage from './pages/LandingPage/LandingPage';
 import Page404 from './pages/404/404';
 import Signin from './pages/Signin/Signin';
 import Signup from './pages/Signup/Signup';
-import InternOnboarding from './pages/Onboarding/InternOnboarding';
+import InternOnboardingTemplate from './pages/Onboarding/InternOnboarding/InternOnboardingTemplate';
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
             <Signup />
           </Route>
           <Route exact path="/intern-onboard">
-            <InternOnboarding />
+            <InternOnboardingTemplate />
           </Route>
           <Route path="*">
             <Page404 />
