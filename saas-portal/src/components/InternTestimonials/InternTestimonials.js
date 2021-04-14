@@ -6,6 +6,7 @@ import anikaPic from "./assets/anika.png";
 import aditiPic from "./assets/aditi.png";
 import antonioPic from "./assets/antonio.png";
 import prashilPic from "./assets/prashil.png";
+import manavPic from "./assets/manav.png";
 import emptyPic from "./assets/empty.jpg";
 
 function InternTestimonials() {
@@ -183,7 +184,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={manavPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
                                                     <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
@@ -260,7 +261,7 @@ function InternTestimonials() {
         /* Slider css below */
         .slider {
             width: 100%;
-            height: 500px;
+            height: 550px;
             padding-top: 14px;
             margin: 0 auto;
             position: relative;

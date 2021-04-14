@@ -54,7 +54,7 @@ function InternFAQs() {
                             {show == 1 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">All of our startups work on cutting-edge innovations that want to make the world a better place. They use state-of-the-art technologies such as Artifical Intelligence, Machine Learning, Blockchain, Distributed Systems -- stuff that you'll work on :)</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">All of our startups aim to make the world a better place by working on cutting-edge innovations. They use state-of-the-art technologies such as Artifical Intelligence, Machine Learning, Blockchain, Distributed Systems -- stuff that you'll work on :)</p>
                                     </li>
                                 </ul>
                             )}
@@ -79,14 +79,14 @@ function InternFAQs() {
                             {show === 2 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Yes, ofcourse, just make note of the requirements and restrictions of particular startups.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Yes. When we say we're a global platform, we truly mean it. There's no citizenship requirements. </p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">I represent a high school. How can I work with you?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I represent a high school. I want to work with you, what do I do?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 3 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -163,7 +163,7 @@ function InternFAQs() {
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">How is Slingshot any different?</h1>
+                                <h1 className="text-gray-700 tracking-wide">How is Slingshot different?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 6 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">

@@ -39,7 +39,7 @@ function InternHowItWorks() {
                                 </div>
                                 <div className="md:w-10/12 lg:w-10/12 mt-1">
                                     <h4 className="text-2xl font-bold leading-tight text-white">Paid and credit-based tech internships.</h4>
-                                    <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">Beyond redefining the industry status-quo, putting your skills to the real test, you can receive compensation for your work performed.</p>
+                                    <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">Beyond redefining the industry status-quo, and putting your skills to the real test, you can also receive compensation for your work.</p>
                                 </div>
                             </div>
                             <div className="flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
@@ -69,7 +69,7 @@ function InternHowItWorks() {
                                 </div>
                                 <div className="md:w-10/12 lg:w-10/12 mt-1">
                                     <h4 className="text-2xl font-bold leading-tight text-white">The last line on your resume you'll ever need.</h4>
-                                    <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">Past interns have sky-rocketed their college profiles leagues ahead of the crowd. There's nothing like Slingshot out there.</p>
+                                    <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">Past interns have sky-rocketed their college profiles leagues ahead of the crowd. There's truly nothing like Slingshot out there.</p>
                                 </div>
                             </div>
                         </div>
