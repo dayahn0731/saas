@@ -305,7 +305,7 @@ function Hero() {
                                 </svg> */}
                                 <img src="https://1000logos.net/wp-content/uploads/2018/02/Stanford-Logo.png" width={280} height={280} viewBox="0 0 280 280" />
                             </div>
-                            <div className="pb-4 lg:pb-0">
+                            <div className="pb-8 lg:pb-0">
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" width={162} height={46} viewBox="0 0 162 46" fill="none">
                                     <path d="M18.3993 7.60742V20.5667H6.59745V7.60742H0.994385V38.5425H6.59745V26.004H18.3993V38.5425H24.0024V7.60742H18.3993Z" fill="#33475B" />
                                     <path d="M41.9342 28.5431C41.9342 29.7829 41.4458 30.9719 40.5765 31.8485C39.7072 32.7252 38.5282 33.2177 37.2988 33.2177C36.0694 33.2177 34.8904 32.7252 34.0211 31.8485C33.1518 30.9719 32.6635 29.7829 32.6635 28.5431V15.293H27.3486V28.5431C27.3486 31.2018 28.3959 33.7517 30.2602 35.6317C32.1244 37.5117 34.6528 38.5679 37.2892 38.5679C39.9256 38.5679 42.454 37.5117 44.3183 35.6317C46.1825 33.7517 47.2298 31.2018 47.2298 28.5431V15.293H41.9342V28.5431Z" fill="#33475B" />
@@ -324,7 +324,7 @@ function Hero() {
                                         fill="#FF7A59"
                                     />
                                 </svg> */}
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png" width={144} height={96} viewBox="0 0 144 96" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1280px-MIT_logo.svg.png" width={144} height={144} viewBox="0 0 144 96" />
                             </div>
                             <div className="pb-4 lg:pb-0">
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" width={211} height={45} viewBox="0 0 211 45" fill="none">
