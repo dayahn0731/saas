@@ -9,7 +9,6 @@ import Stat from "../../components/Stat/Stat";
 import InternFAQs from "../../components/InternFAQs/InternFAQs";
 import InternTestimonials from "../../components/InternTestimonials/InternTestimonials";
 import Footer from "../../components/Footer/Footer";
-// import InternPrograms from "../../components/InternPrograms/InternPrograms";
 
 function LandingPage() {
     return (
