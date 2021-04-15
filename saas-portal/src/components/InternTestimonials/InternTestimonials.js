@@ -279,7 +279,8 @@ function InternTestimonials() {
             transition: all 1s;
         }
 
-        @media (min-width: 320px) and (max-width: 1023px) {
+
+        @media (min-width: 360px) and (max-width: 1024px) {
             .slider .left {
                 margin-left: 40% !important;
             }
@@ -291,7 +292,23 @@ function InternTestimonials() {
             .slider {
                 height: 820px;
             }
-        }`}
+        }
+
+        @media (min-width: 100px) and (max-width: 360px) {
+            .slider .left {
+                margin-left: 40% !important;
+            }
+
+            .slider .right {
+                margin-left: 50% !important;
+            }
+
+            .slider {
+                height: 900px;
+            }
+        }
+        
+        `}
             </style>
         </>
     );
