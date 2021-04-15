@@ -36,7 +36,7 @@ function LandingNavbar() {
                                
                                 <li className="md:mr-8 lg:mr-10 flex items-center">
                                    
-                                    <Link className=" cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="WhySlingshot" spy={true} smooth={true} offset={-200} duration={500}>
+                                    <Link className=" cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="WhySlingshot" spy={true} smooth={true} offset={-120} duration={500}>
                        
                                         Why Slingshot? 
                        
