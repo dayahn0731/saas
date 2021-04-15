@@ -18,7 +18,7 @@ function Hero() {
                     <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                         <div className="flex flex-col lg:w-8/12 md:w-8/12 px-4 lg:px-0 justify-center">
                             <h1 className="text-4xl sm:text-5xl md:text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800">The world's premier platform for high school engineers, hackers &amp; hustlers</h1>
-                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">Are you itching to make real-world impact at a CMU, MIT, Stanford startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the status quo.</p>
+                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">Are you itching to make real-world impact at a CMU, MIT, Stanford or YC startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the industry status quo.</p>
                             <div className="mt-12 flex flex-wrap">
                                 <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0">
                                     <button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Get started</a></button>
