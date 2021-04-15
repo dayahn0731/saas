@@ -143,7 +143,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={emptyPic} width={32} height={32} viewBox="0 0 32 32" className="rounded-full"/>
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 32 32" className="rounded-full"/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Gems Modern, Dubai</h3>

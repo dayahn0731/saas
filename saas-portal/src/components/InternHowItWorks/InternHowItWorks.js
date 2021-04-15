@@ -1,8 +1,10 @@
 import React from "react";
+import {Element} from 'react-scroll'
 
 function InternHowItWorks() {
     return (
         <>
+            <Element name="WhySlingshot">
             <div className="bg-gray-100">
                 <section className="mx-auto container pt-20">
                     <div className="px-4 lg:px-0">
@@ -76,6 +78,7 @@ function InternHowItWorks() {
                     </div>
                 </section>
             </div>
+            </Element>
         </>
     );
 }

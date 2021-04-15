@@ -1,8 +1,9 @@
 import React from "react";
-
+import {Element} from 'react-scroll'
 function InternCTA() {
     return (
         <>
+        <Element name="HowItWorks">
         <div className="flex items-center justify-between w-full h-full">
             <div className="flex flex-col lg:flex-row w-full h-full items-start lg:items-center rounded bg-white shadow">
                 <div className="w-full lg:w-8/12 h-full dark:bg-gray-800 pl-16">
@@ -69,6 +70,7 @@ function InternCTA() {
                 </div>
             </div>
         </div>
+        </Element>
         </>
     );
 }
