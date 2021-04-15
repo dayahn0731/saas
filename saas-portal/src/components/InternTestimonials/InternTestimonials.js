@@ -233,7 +233,7 @@ function InternTestimonials() {
                         <h1 className="lg:text-5xl text-2xl f-m-w text-white font-bold">We can't stop hearing...</h1>
                         <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
                         <div className="flex items-center">
-                            <div id="prev" className="cursor-pointer w-12 h-12 flex items-center justify-center rounded-full border border-white">
+                            <div id="prev" className="cursor-pointer  ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
