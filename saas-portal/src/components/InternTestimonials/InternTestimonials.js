@@ -6,6 +6,7 @@ import anikaPic from "./assets/anika.png";
 import aditiPic from "./assets/aditi.png";
 import antonioPic from "./assets/antonio.png";
 import prashilPic from "./assets/prashil.png";
+import manavPic from "./assets/manav.png";
 import emptyPic from "./assets/empty.jpg";
 
 function InternTestimonials() {
@@ -142,7 +143,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={emptyPic} width={32} height={32} viewBox="0 0 32 32" className="rounded-full"/>
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 32 32" className="rounded-full"/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Gems Modern, Dubai</h3>
@@ -183,7 +184,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={manavPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
                                                     <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
@@ -208,7 +209,7 @@ function InternTestimonials() {
                                             <p className="text-base f-m-m mt-3 text-white">I'm really out of words here. Great mentorship. Great experience. Great community. Slingshot is unlike anything out there. If you're not here, I dunno what you're doing.</p>
                                         </div>
                                     </div>
-                                    <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6 pb-64">
+                                    <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
                                         <div className="absolute right-0 top-0 -mt-6">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                 <path fill="none" d="M0 0h24v24H0z" />
@@ -222,7 +223,7 @@ function InternTestimonials() {
                                                 <h3 className="text-sm f-m-m ml-4">17 y/o, Gems United, Dubai</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3 pb-16">Applying to Slingshot was a no-brainer. At Slingshot, I've been able to develop industry tools for real companies to use. Such a professional experience, so early on.</p>
+                                        <p className="text-base f-m-m mt-3">Applying to Slingshot was a no-brainer. At Slingshot, I've been able to develop industry tools for real companies to use. Such a professional experience, so early on.</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +233,7 @@ function InternTestimonials() {
                         <h1 className="lg:text-5xl text-2xl f-m-w text-white font-bold">We can't stop hearing...</h1>
                         <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
                         <div className="flex items-center">
-                            <div id="prev" className="cursor-pointer w-12 h-12 flex items-center justify-center rounded-full border border border-white">
+                            <div id="prev" className="cursor-pointer w-12 h-12 flex items-center justify-center rounded-full border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
@@ -240,7 +241,7 @@ function InternTestimonials() {
                                     <line x1={5} y1={12} x2={9} y2={8} />
                                 </svg>
                             </div>
-                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border border-white">
+                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
@@ -250,15 +251,17 @@ function InternTestimonials() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <style>
                 {`
 
+
         /* Slider css below */
         .slider {
             width: 100%;
-            height: 500px;
+            height: 550px;
             padding-top: 14px;
             margin: 0 auto;
             position: relative;
@@ -286,7 +289,7 @@ function InternTestimonials() {
             }
 
             .slider {
-                height: 650px;
+                height: 820px;
             }
         }`}
             </style>

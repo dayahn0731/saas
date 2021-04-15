@@ -9,7 +9,7 @@ function Footer() {
                         <p className="text-gray-800">{new Date().getFullYear()} SLINGSHOT AHEAD INC. All Rights Reserved</p>
                     </div>
                     <div className="xl:w-3/6 lg:w-3/6 sm:w-full">
-                        <div className="mr-0 pr-0">info@slingshotmentoring.com</div>
+                        <a href="mailto:info@slingshotmentoring.com" className="mr-0 pr-0">info@slingshotmentoring.com</a>
                         {/* <ul className="xl:flex lg:flex md:flex sm:flex justify-around">
                             <li className="text-gray-800 hover:text-gray-900 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0">
                                 <a href="javascript:void(0)">Terms of service</a>

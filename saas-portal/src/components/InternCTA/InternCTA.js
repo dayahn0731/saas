@@ -1,8 +1,9 @@
 import React from "react";
-
+import {Element} from 'react-scroll'
 function InternCTA() {
     return (
         <>
+        <Element name="HowItWorks">
         <div className="flex items-center justify-between w-full h-full">
             <div className="flex flex-col lg:flex-row w-full h-full items-start lg:items-center rounded bg-white shadow">
                 <div className="w-full lg:w-8/12 h-full dark:bg-gray-800 pl-16">
@@ -11,7 +12,7 @@ function InternCTA() {
                             <div className="flex flex-col justify-center w-full px-4 md:w-5/6 md:px-2 lg:px-12 py-10 pb-20 items-center">
                                 <div className="px-auto">
                                     <h3 className="text-xl  xl:text-4xl font-bold lg:leading-tight text-gray-800">Ready to change the status quo?</h3>
-                                    <p className="text-base xl:text-xl text-gray-600 xl:leading-normal pt-4">During our program you are matched with a CMU, MIT, Stanford or YC startup for 12 weeks to meaningfully contribute alongside seasoned engineers in a challenging, fast-paced, industry environment.</p>
+                                    <p className="text-base xl:text-xl text-gray-600 xl:leading-normal pt-4"> Through Slingshot, you are matched with a CMU, MIT, Stanford or YC startup for 12 weeks to meaningfully contribute alongside seasoned engineers in a challenging, fast-paced, industry environment.</p>
                                     <button className="my-4 lg:my-8 lg:mb-0 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 focus:outline-none rounded text-white py-2 px-4  xl:px-8 xl:py-4 text-lg xl:text-2xl"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Sign up today!</a></button>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0 mt-12">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700"><a href="https://bit.ly/3b1nS1R">Just started learning CS? Don't worry, check this out!</a></h3>
@@ -33,11 +34,11 @@ function InternCTA() {
                                 <div className="flex flex-col items-center pt-2 sm:pt-8 lg:pt-2 pr-2 lg:pr-0">
                                     <div className="mt-8">
                                         <h1 className="font-bold text-indigo-900 text-lg">1. Sign up</h1>
-                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">And browse amazing startups and community member profiles.</h2>
+                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">View our exclusive startup portfolio.</h2>
                                     </div>
                                     <div className="pt-8 sm:pt-16 mt-10 lg:pt-8">
                                         <h1 className="font-bold text-indigo-900 text-lg">3. Find a match!</h1>
-                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">Find your perfect place to intern.</h2>
+                                        <h2 className="lg:w-11/12 text-sm md:text-base text-gray-700 pt-1">Find your perfect place to intern. </h2>
                                     </div>
                                 </div>
                                 <div>
@@ -69,6 +70,7 @@ function InternCTA() {
                 </div>
             </div>
         </div>
+        </Element>
         </>
     );
 }
