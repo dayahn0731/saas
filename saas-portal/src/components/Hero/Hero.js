@@ -279,16 +279,16 @@ mb-5 md:mb-10"
             </div>
             <div className="py-5 px-15 bg-gray-100 flex flex-wrap rounded">
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
-                <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" />
+                <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" />
+                <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" />
+                <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/>
                 </div>
                 <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" />
+                <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
                 </div>
             </div>
         </div>

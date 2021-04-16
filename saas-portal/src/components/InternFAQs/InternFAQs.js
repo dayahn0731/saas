@@ -15,7 +15,7 @@ function InternFAQs() {
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
                                 <h1 className="text-gray-700 tracking-wide">When do internships begin?</h1>
                                 <div data-menu className="cursor-pointer">
-                                    {show == 0 ? (
+                                    {show === 0 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" />
                                             <polyline points="6 15 12 9 18 15" />
@@ -28,7 +28,7 @@ function InternFAQs() {
                                     )}
                                 </div>
                             </div>
-                            {show == 0 && (
+                            {show === 0 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
                                         <p className="xl:w-10/12 w-full text-gray-600 text-sm">You can find internships full-time / part-time all around the year. Sign up on our platform to find one today!</p>
@@ -40,7 +40,7 @@ function InternFAQs() {
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
                                 <h1 className="text-gray-700 tracking-wide">What kind of startups do we get to work with?</h1>
                                 <div data-menu className="cursor-pointer">
-                                    {show == 1 ? (
+                                    {show === 1 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" />
                                             <polyline points="6 15 12 9 18 15" />
@@ -53,7 +53,7 @@ function InternFAQs() {
                                     )}
                                 </div>
                             </div>
-                            {show == 1 && (
+                            {show === 1 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
                                         <p className="xl:w-10/12 w-full text-gray-600 text-sm">All of our startups aim to make the world a better place by working on cutting-edge innovations. They use state-of-the-art technologies such as Artifical Intelligence, Machine Learning, Blockchain, Distributed Systems -- stuff that you'll work on :)</p>

@@ -70,7 +70,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={anikaPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" />
+                                                <img src={anikaPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt="" />
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anika Thatavarthy</h2>
                                                     <h3 className="text-sm f-m-m ml-4">17 y/o, Thomas Jefferson</h3>
@@ -86,7 +86,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={tajwarPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={tajwarPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Tajwar Rahman</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High school</h3>
@@ -103,7 +103,7 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src={aditiPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                            <img src={aditiPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Aditi</h2>
                                                 <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High school</h3>
@@ -127,7 +127,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={davidPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={davidPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">David Chen</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High school</h3>
@@ -143,7 +143,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 32 32" className="rounded-full"/>
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 32 32" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
                                                     <h3 className="text-sm f-m-m ml-4">16 y/o, Gems Modern, Dubai</h3>
@@ -160,7 +160,7 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src={antonioPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                            <img src={antonioPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
                                                 <h3 className="text-sm f-m-m ml-4">17 y/o, GSMST</h3>
@@ -184,7 +184,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
-                                                <img src={manavPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={manavPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
                                                     <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
@@ -200,7 +200,7 @@ function InternTestimonials() {
                                                 </svg>
                                             </div>
                                             <div className="flex items-center text-white">
-                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                                <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
                                                     <h3 className="text-sm f-m-m ml-4">17 y/o, John P. Stevens High</h3>
@@ -217,7 +217,7 @@ function InternTestimonials() {
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
-                                            <img src={prashilPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full"/>
+                                            <img src={prashilPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Prashil A.</h2>
                                                 <h3 className="text-sm f-m-m ml-4">17 y/o, Gems United, Dubai</h3>
