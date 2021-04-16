@@ -268,31 +268,23 @@ function Hero() {
                     </div>
                 </div>
             </div> */}
-
-        <div className="container mx-auto pt-16 pb-16">
-            <div
-                className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto  
-mb-5 md:mb-10"
-            >
-                <h1 className="xl:text-5xl md:text-3xl text-2xl text-center text-gray-800 font-extrabold mb-4 pt-4">Partnerships</h1>
-                <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 font-normal xl:w-10/12 xl:mx-auto"> Our startup partners come from some of the top startup ecosystems in the world.</p>
+            <div className="container mx-auto pt-8 pb-8">
+                <div className="px-15 flex flex-wrap rounded">
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
+                    <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
+                    </div>
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/>
+                    </div>
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/>
+                    </div>
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
+                    </div>
+                </div>
+                <p className="text-base md:text-lg lg:text-xl text-center text-gray-400 font-normal xl:w-10/12 xl:mx-auto mt-8">Our startup partners come from the top startup ecosystems in the world.</p>
             </div>
-            <div className="py-5 px-15 bg-gray-100 flex flex-wrap rounded">
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
-                <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
-                </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/>
-                </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/>
-                </div>
-                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
-                </div>
-            </div>
-        </div>
-
         </>
     );
 }
