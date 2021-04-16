@@ -18,7 +18,7 @@ function Hero() {
                     <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                         <div className="flex flex-col lg:w-8/12 md:w-8/12 px-4 lg:px-0 justify-center">
                             <h1 className="text-4xl sm:text-5xl md:text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800">The world's premier platform for high school engineers, hackers &amp; hustlers</h1>
-                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">Are you itching to make real-world impact at a CMU, MIT, Stanford or YC startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the industry status quo.</p>
+                            <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">Are you itching to make real-world impact at a cutting-edge startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the industry status quo.</p>
                             <div className="mt-12 flex flex-wrap">
                                 <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0">
                                     <button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Get started</a></button>
@@ -248,7 +248,7 @@ function Hero() {
                     </div>
                 </section>
             </div>
-            <div className="mx-auto container">
+            {/* <div className="mx-auto container">
                 <div className="w-full flex flex-col items-center justify-center px-4">
                     <div className="flex lg:flex-row flex-col items-center justify-between py-4 border-brands lg:w-11/12 f-f-l">
                         <div className="flex lg:flex-row flex-col items-center justify-between w-full">
@@ -267,7 +267,32 @@ function Hero() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+
+        <div className="container mx-auto pt-16 pb-16">
+            <div
+                className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto  
+mb-5 md:mb-10"
+            >
+                <h1 className="xl:text-5xl md:text-3xl text-2xl text-center text-gray-800 font-extrabold mb-4 pt-4">Partnerships</h1>
+                <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 font-normal xl:w-10/12 xl:mx-auto"> Our startup partners come from some of the top startup ecosystems in the world.</p>
             </div>
+            <div className="py-5 px-15 bg-gray-100 flex flex-wrap rounded">
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
+                <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" />
+                </div>
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" />
+                </div>
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" />
+                </div>
+                <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" />
+                </div>
+            </div>
+        </div>
+
         </>
     );
 }
