@@ -4,7 +4,7 @@ import React from "react";
 import * as routes from "../../routes"
 
 // assets
-import logo from "./assets/boys.jpg"
+import heroImg from "./assets/boys.jpg"
 import cmuLogo from "./assets/cmu.png"
 import stanfordLogo from "./assets/stanford.png"
 import mitLogo from "./assets/mit.png"
@@ -30,7 +30,7 @@ function Hero() {
                         </div>
                         <div className="mt-6 md:mt-0 h-64 md:h-auto md:w-1/2 relative lg:mt-0 pl-6 sm:pl-20 pt-10 flex justify-end sm:block">
                             <div className="-mb-32 absolute left-10 w-5/6 h-5/6">
-                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-11/12 h-full" src={logo} alt="Coffee" />
+                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-11/12 h-full" src={heroImg} alt="Coffee" />
                             </div>
                             <div className="absolute h-5/6 w-5/6 top-0 pl-6 left-0 flex flex-col items-start">
                                 <svg width={285} height={462} xmlns="http://www.w3.org/2000/svg">
