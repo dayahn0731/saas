@@ -6,7 +6,7 @@ function InternFAQs() {
     return (
         <>
          <Element name="FAQs"></Element>
-            <div className="mx-auto container f-f-p px-4 xl:px-0 my-24 mb-0">
+            <div className="mx-auto container f-f-p px-4 xl:px-8 my-24 mb-0">
                 <h1 className="text-center text-gray-800 text-2xl lg:text-5xl font-bold tracking-wider leading-10">FAQs</h1>
                 <h2 className="text-center text-gray-700 text-base lg:text-lg tracking-wide mt-5">Slingshot is too good to be true. Tell me more!</h2>
                 <div className="lg:flex flex-wrap py-8 md:py-10 lg:py-14 xl:py-20 text-lg">
