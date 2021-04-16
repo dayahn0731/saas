@@ -273,16 +273,16 @@ function Hero() {
             <div className="container mx-auto pt-8 pb-8">
                 <div className="px-15 flex flex-wrap rounded">
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
-                    <img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
+                    <a href="https://www.cmu.edu/"><img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/></a>
                     </div>
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                    <img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/>
+                    <a href="https://www.stanford.edu/"><img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/></a>
                     </div>
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                    <img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/>
+                    <a href="https://www.mit.edu/"><img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/></a>
                     </div>
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
-                    <img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/>
+                    <a href="https://www.ycombinator.com/"><img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/></a>
                     </div>
                 </div>
                 <p className="text-base md:text-lg lg:text-xl text-center text-gray-400 font-normal xl:w-10/12 xl:mx-auto mt-8">Our startup partners come from the top startup ecosystems in the world.</p>
