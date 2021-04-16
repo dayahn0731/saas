@@ -10,11 +10,13 @@ import stanfordLogo from "./assets/stanford.png"
 import mitLogo from "./assets/mit.png"
 import yCombinatorLogo from "./assets/ycombinator.png"
 
+
+
 function Hero() {
     return (
         <>
             <div className="bg-gray-100 pb-12">
-                <section className="mx-auto container py-20 lg:px-4 xl:px-0">
+                <section className="mx-auto container py-20 lg:px-8 xl:px-8">
                     <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                         <div className="flex flex-col lg:w-8/12 md:w-8/12 px-4 lg:px-0 justify-center">
                             <h1 className="text-4xl sm:text-5xl md:text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800">The world's premier platform for high school engineers, hackers &amp; hustlers</h1>

@@ -9,7 +9,7 @@ function LandingNavbar() {
     return (
         <>
         <div className="bg-gray-100 py-4 md:py-6 z-20"  style={{position: "sticky", top: 0}}>
-            <header className="mx-auto container px-4 xl:px-0">
+            <header className="mx-auto container px-4 xl:px-8">
                 <div className="flex items-center justify-between">
                     <a href="#/">
                         <img aria-label="Home" className="w-48 h-18" id="logo" enableBackground="new 0 0 300 300" src={logo} alt="Coffee" />

@@ -51,7 +51,7 @@ function InternTestimonials() {
     return (
         <>
             <div className="relative py-4 md:py-24 lg:py-36 bg-black">
-                <div className="w-full xl:px-0 px-4 lg:flex-row flex flex-col-reverse items-center justify-between mx-auto container relative">
+                <div className="w-full xl:px-8 px-4 lg:flex-row flex flex-col-reverse items-center justify-between mx-auto container relative">
                     <div className="w-full lg:w-1/2 relative">
                         <div className="slider">
                             <div className="slide-ana">
@@ -279,6 +279,33 @@ function InternTestimonials() {
             transition: all 1s;
         }
 
+        @media (min-width: 1230px) and (max-width: 1530px) {
+            .slider .left {
+                margin-left: 40% !important;
+            }
+
+            .slider .right {
+                margin-left: 50% !important;
+            }
+
+            .slider {
+                height: 800px;
+            }
+        }
+
+        @media (min-width: 1024px) and (max-width: 1230px) {
+            .slider .left {
+                margin-left: 40% !important;
+            }
+
+            .slider .right {
+                margin-left: 50% !important;
+            }
+
+            .slider {
+                height: 800px;
+            }
+        }
 
         @media (min-width: 360px) and (max-width: 1024px) {
             .slider .left {
