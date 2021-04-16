@@ -11,6 +11,7 @@ import mitLogo from "./assets/mit.png"
 import yCombinatorLogo from "./assets/ycombinator.png"
 
 
+
 function Hero() {
     return (
         <>
