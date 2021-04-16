@@ -10,6 +10,7 @@ import stanfordLogo from "./assets/stanford.png"
 import mitLogo from "./assets/mit.png"
 import yCombinatorLogo from "./assets/ycombinator.png"
 
+
 function Hero() {
     return (
         <>
