@@ -10,6 +10,16 @@ import {
 function App() {
   return (
     <>
+    <Router>
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="*">
+            <Page404 />
+          </Route>
+        </Switch>
+      </Router>
       <LandingPage />
     </>
   );
