@@ -24,7 +24,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -48,7 +48,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -72,7 +72,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -103,7 +103,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -127,7 +127,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -151,7 +151,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -182,7 +182,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -206,7 +206,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1566753323558-f4e0952af115.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
@@ -230,7 +230,7 @@ function StartupTestimonials() {
                                             </div>
                                             <div className="pl-6 pr-6 pt-10 relative h-64">
                                                 <div className="h-16 w-16 rounded-full bg-cover border-4 border-white absolute top-0 right-0 -mt-8 mr-6">
-                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt className="h-full w-full object-cover rounded-full overflow-hidden" />
+                                                    <img src="https://cdn.tuk.dev/assets/photo-1548958921-c5c0fe1b307d.jfif" alt="" className="h-full w-full object-cover rounded-full overflow-hidden" />
                                                 </div>
                                                 <p className="text-base text-gray-600 leading-8">It really saves me time and effort. Chamer is exactly what our business has been lacking. Chamer was worth a fortune to my company.</p>
                                                 <div className="flex justify-end mt-2">
