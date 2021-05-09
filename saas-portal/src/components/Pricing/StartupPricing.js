@@ -5,7 +5,7 @@ function StartupPricing() {
         <>
         <div className="container mx-auto pt-16">
             <div className="w-4/5 mx-auto pb-12">
-                <h1 className="xl:text-4xl text-3xl text-center text-gray-800 mb-4 font-extrabold">Simple &amp; Transparent Pricing</h1>
+                <h1 className="xl:text-4xl text-3xl text-center text-gray-800 mb-4 font-extrabold">Ridiculously Reasonable Pricing</h1>
                 <p className="text-xl text-center text-gray-600 leading-normal">We grow when your business does. So we have put together simple pricing that allows you to easily scale your business when its needs evolve. So choose a plan for your next project.</p>
             </div>
             <div className="flex flex-wrap justify-between">
@@ -14,22 +14,22 @@ function StartupPricing() {
                         <h4 className="text-2xl text-center text-gray-800 pb-3 font-bold">Professional</h4>
                         <p className="text-sm text-center text-gray-600 pb-5 leading-normal px-10">Basic resources for a starter site. Individuals and small teams.</p>
                         <p className="text-base text-center text-gray-600 font-bold">
-                            $ <span className="text-4xl text-indigo-700 font-medium px-2">49</span>
-                            /mo
+                            $ <span className="text-4xl text-indigo-700 font-medium px-2">499</span>
+                            / intern placed
                         </p>
                     </div>
-                    <div className="flex justify-between pl-12 pr-12 pt-4 pb-4 bg-gray-100" role="button">
+                    {/* <div className="flex justify-between pl-12 pr-12 pt-4 pb-4 bg-gray-100" role="button">
                         <p className="text-base text-gray-600 font-bold">Annual Billing</p>
                         <div className="cursor-pointer w-12 h-6 rounded-full bg-indigo-700 relative shadow-sm">
                             <input type="checkbox" name="toggle" id="toggle" className="focus:outline-none checkbox w-4 h-4 rounded-full bg-white absolute m-1 shadow-sm appearance-none cursor-pointer" />
                             <label htmlFor="toggle" className="toggle-label bg-gray-200 block w-12 h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer" />
                         </div>
-                    </div>
+                    </div> */}
                     <div className="pt-6 pr-8 pl-8">
                         <ul className="flex flex-col items-center">
                             <li className="flex items-center mb-8">
                                 <div className="h-1 w-1 rounded-full bg-indigo-700" />
-                                <p className="pl-2 text-gray-600 text-base">Demo features 1 for plan</p>
+                                <p className="pl-2 text-gray-600 text-base">Unlimited Listings</p>
                             </li>
                             <li className="flex items-center mb-8">
                                 <div className="h-1 w-1 rounded-full bg-indigo-700" />
