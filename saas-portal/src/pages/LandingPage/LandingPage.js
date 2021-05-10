@@ -6,9 +6,9 @@ import Hero from "../../components/Hero/Hero"
 import InternCTA from "../../components/CTA/InternCTA";
 import InternHowItWorks from "../../components/HowItWorks/InternHowItWorks";
 import Stat from "../../components/Stat/Stat";
-import InternFAQs from "../../components/InternFAQs/InternFAQs";
 import InternTestimonials from "../../components/Testimonials/InternTestimonials";
 import Footer from "../../components/Footer/Footer";
+import InternFAQs from "../../components/FAQs/InternFAQs";
 
 function LandingPage() {
     return (
