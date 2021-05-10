@@ -13,8 +13,8 @@ function StartupHero() {
                             <h1 className="text-4xl sm:text-5xl md:text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800">They're smart. They're hungry. <br/>They're changing the game.</h1>
                             <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">High schoolers of today have quietly become industry-grade engineers. It's time we start paying attention. They're gifted, skilled, and they care about making real impact. <strong>Hire the next generation of talent only at Slingshot.</strong></p>
                             <div className="mt-12 flex flex-wrap">
-                                <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0 w-6/12">
-                                <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl w-8/12">Start hiring today!</button></a>
+                                <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0 w-full">
+                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl w-8/12">Start hiring today!</button></a>
                                 </div>
                             </div>
                         </div>
