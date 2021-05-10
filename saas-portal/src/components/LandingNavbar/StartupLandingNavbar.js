@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
 import logo from "./logo.png";
-import {Link} from 'react-scroll'
-import { NavLink } from "react-router-dom";
 
-function LandingNavbar() {
+function StartupLandingNavbar() {
     const [show, setShow] = useState(false);
     return (
         <>
@@ -32,43 +30,8 @@ function LandingNavbar() {
                                 </svg>
                             </div>
                             <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-gray-100 z-20">
-                               
-                                <li className="md:mr-8 lg:mr-10 flex items-center">
-                                   
-                                    <Link className=" cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="WhySlingshot" spy={true} smooth={true} offset={-120} duration={500}>
-                       
-                                        Why Slingshot? 
-                       
-                                    </Link>
-                                    
-                                </li>
-                                <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    
-                                    <Link className="cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="HowItWorks" spy={true} smooth={true} offset={-50} duration={500}>
-                                        
-                                     How it Works
-                                      
-                                    </Link>
-                                    
-                                </li>
-
-                                <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    
-                                    <Link className="cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="FAQs" spy={true} smooth={true} offset={-50} duration={500}>
-                                        
-                                     FAQs
-                                      
-                                    </Link>
-                                    
-                                </li>
-
-                                <li className="md:mr-8 lg:mr-10 flex items-center">
-                                    <NavLink className="cursor-pointer text-gray-800 hover:text-gray-600 pt-10 md:pt-0" to="/startups">
-                                        <strong>For Startups</strong>
-                                    </NavLink>
-                                </li>
                                 <li className="flex items-center">
-                                    <button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Get started</a></button>
+                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0">Get started</button></a>
                                 </li>
                              </ul>
                         </div> 
@@ -80,4 +43,4 @@ function LandingNavbar() {
     )
 }
 
-export default LandingNavbar;
+export default StartupLandingNavbar;
