@@ -133,7 +133,7 @@ function InternFAQs() {
                             {show === 4 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Amazing. While our startup page is under progress, we're still fully ready to work with you. Email us at info@slingshotmentoring.com to set up a meeting today.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Head on over to <a href="https://slingshotahead.com/startups">https://slingshotahead.com/startups</a></p>
                                     </li>
                                 </ul>
                             )}
@@ -183,7 +183,7 @@ function InternFAQs() {
                             {show === 6 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Unlike other education programs that charge kids thousands of dollars and hand a certificate, at Slingshot we've flipped the bottle and change the game. We truly respect high school talent for what it's worth. Jump on!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Unlike other education programs that charge kids thousands of dollars and hand a certificate, at Slingshot we've flipped the bottle and changed the game. We truly respect high school talent for what it's worth. Jump on!</p>
                                     </li>
                                 </ul>
                             )}

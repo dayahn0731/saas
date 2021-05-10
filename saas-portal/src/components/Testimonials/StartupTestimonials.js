@@ -3,12 +3,12 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-re
 
 function StartupTestimonials() {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-black">
             <div className="container mx-auto pt-16">
                 {/* PLease install Pure React Carousel using "npm i pure-react-carousel" in order to use this component */}
                 <div className="pb-12">
-                    <h1 className="text-3xl xl:text-5xl font-extrabold text-gray-800 mx-auto text-center xl:text-left pb-4">Still not convinced? Hear From Our Customers</h1>
-                    <p className="text-xl text-gray-600 xl:w-2/4 w-9/12 mx-auto xl:mx-0 text-center sm:text-left">Sourcing talent from Slingshot was the best decision I made. These high school interns really outperformed any CMU, MIT grad I've ever employed. I'm inspired.</p>
+                    <h1 className="text-3xl xl:text-5xl font-extrabold text-white mx-auto text-center xl:text-left pb-4">Still not convinced? Hear From Our Customers</h1>
+                    <p className="text-xl text-white xl:w-2/4 w-9/12 mx-auto xl:mx-0 text-center sm:text-left">"Sourcing talent from Slingshot was the best decision I made. These high school interns really outperformed any CMU, MIT grad I've ever employed. I'm inspired."</p>
                 </div>
                 <CarouselProvider naturalSlideWidth={100} naturalSlideHeight={125} totalSlides={2} isIntrinsicHeight={true} infinite={true}>
                     <Slider>
@@ -17,7 +17,7 @@ function StartupTestimonials() {
                             <figure className="py-4">
                                 <div className="flex flex-wrap justify-around">
                                     <div className="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:pb-0 pb-12">
-                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
+                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded bg-white">
                                             <div className="bg-indigo-700 pt-6 pb-6 pl-6 rounded-tl rounded-tr">
                                                 <p className="text-xl text-white pb-1">Isaac Harris</p>
                                                 <p className="text-base text-white"><strong>Slide</strong></p>
@@ -41,7 +41,7 @@ function StartupTestimonials() {
                                         </div>
                                     </div>
                                     <div className="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:mb-0 mb-12">
-                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
+                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded bg-white">
                                             <div className="bg-indigo-700 pt-6 pb-6 pl-6 rounded-tl rounded-tr">
                                                 <p className="text-xl text-white pb-1">Thom Gulish</p>
                                                 <p className="text-base text-white"><strong>OceanGenomics</strong></p>
@@ -65,7 +65,7 @@ function StartupTestimonials() {
                                         </div>
                                     </div>
                                     <div className="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:mb-0 mb-12">
-                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
+                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded bg-white">
                                             <div className="bg-indigo-700 pt-6 pb-6 pl-6 rounded-tl rounded-tr">
                                                 <p className="text-xl text-white pb-1">Grace McKenzie</p>
                                                 <p className="text-base text-white"><strong>Gordian Software (YC 'XX)</strong></p>
@@ -96,7 +96,7 @@ function StartupTestimonials() {
                             <figure className="py-4">
                                 <div className="flex flex-wrap justify-around">
                                     <div className="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:mb-0 mb-12">
-                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
+                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded bg-white">
                                             <div className="bg-indigo-700 pt-6 pb-6 pl-6 rounded-tl rounded-tr">
                                                 <p className="text-xl text-white pb-1">Anish Krishnan</p>
                                                 <p className="text-base text-white"><strong>Ahead</strong></p>
@@ -120,7 +120,7 @@ function StartupTestimonials() {
                                         </div>
                                     </div>
                                     <div className="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:pb-0 pb-12">
-                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
+                                        <div className="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded bg-white">
                                             <div className="bg-indigo-700 pt-6 pb-6 pl-6 rounded-tl rounded-tr">
                                                 <p className="text-xl text-white pb-1">Mert Bozfakıoğlu</p>
                                                 <p className="text-base text-white"><strong>ClimbR</strong></p>

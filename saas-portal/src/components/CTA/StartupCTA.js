@@ -26,7 +26,7 @@ function StartupCTA() {
                                         100% Satisfaction<br />
                                         Affordable pricing.
                                     </h1>
-                                    <p className="text-base font-normal f-m-m leading-loose py-8">We only charge you <strong>after</strong> a 12-week period wherein an intern's work is deemed <strong>successful</strong> by you. <a href="mailto:info@slingshotmentoring.com?cc=akshatp.cs@gmail.com,mayankj.work@gmail.com&subject=I'm%20interested%20in%20hiring%20from%20Slingshot!&body=Hey%20Slingshot%2C%0D%0A%0D%0AI%20checked%20out%20the%20website%20and%20would%20love%20to%20move%20forward.%20What%20are%20the%20next%20steps%3F" target="_blank" rel="noopener noreferrer"><u>Get a quote today!</u></a></p>
+                                    <p className="text-base font-normal f-m-m leading-loose py-8">We only charge you a placement fee <strong>after</strong> 12 weeks when your intern's work is deemed <strong>successful</strong>. <a href="mailto:info@slingshotmentoring.com?cc=akshatp.cs@gmail.com,mayankj.work@gmail.com&subject=I'm%20interested%20in%20hiring%20from%20Slingshot!&body=Hey%20Slingshot%2C%0D%0A%0D%0AI%20checked%20out%20the%20website%20and%20would%20love%20to%20move%20forward.%20What%20are%20the%20next%20steps%3F" target="_blank" rel="noopener noreferrer"><u>Get a quote today!</u></a></p>
                                 </div>
                             </div>
                             <div className="rounded bg-indigo-700 px-4 xl:px-8 mb-8 lg:mb-0 shadow-md">  
@@ -89,7 +89,9 @@ function StartupCTA() {
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8">We know what you're thinking, but hear us out :)</p>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8">High schoolers of today are more <strong>precocious</strong>, <strong>skilled</strong> and <strong>smarter</strong> than ever. Their talent is going completely unnoticed simply due to age bias and/or lack of college credentials. But, Slingshot interns are challenging the status quo and have proven themselves even <strong>better</strong> than entry-level engineers.</p>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8">The world's <strong>changing</strong>. We recognize it, and it's time for you to get ahead on the curve as well.</p>
+                        <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">
                         <button className=" hover:opacity-90 text-base font-bold bg-yellow-500 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">I'm sold! Sign me up.</button>
+                        </a>
                     </div>
                 </div>
             </div>

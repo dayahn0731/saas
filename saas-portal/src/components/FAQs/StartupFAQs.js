@@ -4,7 +4,7 @@ import {Element} from 'react-scroll'
 function StartupFAQs() {
     const [show, setShow] = useState(null);
     return (
-        <div className="bg-gray-100 py-1">
+        <>
          <Element name="FAQs"></Element>
             <div className="mx-auto container f-f-p px-4 xl:px-8 my-24 mb-0">
                 <h1 className="text-center text-gray-800 text-2xl lg:text-5xl font-bold tracking-wider leading-10">FAQs</h1>
@@ -13,7 +13,7 @@ function StartupFAQs() {
                     <div className="lg:w-1/2 lg:pr-6">
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">When do internships begin?</h1>
+                                <h1 className="text-gray-700 tracking-wide">Is this just a summer thing?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 0 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -31,14 +31,14 @@ function StartupFAQs() {
                             {show === 0 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">You can find internships full-time / part-time all around the year. Sign up on our platform to find one today!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Nope. Not at all. Interns are available for work full-time / part-time throughout the year.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">What kind of startups do we get to work with?</h1>
+                                <h1 className="text-gray-700 tracking-wide">What kind of technical vetting does Slingshot do?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 1 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -56,14 +56,14 @@ function StartupFAQs() {
                             {show === 1 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">All of our startups aim to make the world a better place by working on cutting-edge innovations. They use state-of-the-art technologies such as Artifical Intelligence, Machine Learning, Blockchain, Distributed Systems -- stuff that you'll work on :)</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Our interview process parallels those conducted at top FAANG companies. Between our team, we've given ~500 tech interviews and worked at several startups. We know what you're looking for. Plus if you have particular technial skills that you're looking for, we incorporate that too!</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">I'm international, can I still apply?</h1>
+                                <h1 className="text-gray-700 tracking-wide">Can I employ a minor?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 2 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -81,14 +81,14 @@ function StartupFAQs() {
                             {show === 2 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Yes. When we say we're a global platform, we truly mean it. There's no citizenship requirements. </p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Yep! For early stage startups, we help with paperwork around the same.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">I represent a high school. I want to work with you, what do I do?</h1>
+                                <h1 className="text-gray-700 tracking-wide">This sounds cool. How do I sign up?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 3 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -106,7 +106,7 @@ function StartupFAQs() {
                             {show === 3 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to info@slingshotmentoring.com to schedule a meeting!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">We're currently an invite-only platform. To start onboarding, fill out this <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><u>form</u></a></p>
                                     </li>
                                 </ul>
                             )}
@@ -115,7 +115,7 @@ function StartupFAQs() {
                     <div className="lg:w-1/2 lg:pl-6">
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">I'm a startup and would love to hire talent!</h1>
+                                <h1 className="text-gray-700 tracking-wide">What's does pricing look like?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 4 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -133,14 +133,14 @@ function StartupFAQs() {
                             {show === 4 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Amazing. While our startup page is under progress, we're still fully ready to work with you. Email us at info@slingshotmentoring.com to set up a meeting today.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">We charge a placement fee per intern matched to you only after a 12 week period. Sign up today to get a quote!</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">Who runs Slingshot?</h1>
+                                <h1 className="text-gray-700 tracking-wide">What happens if an intern isn't a great fit?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 5 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -158,14 +158,14 @@ function StartupFAQs() {
                             {show === 5 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Graduates from the top CS universities in the world who were once high schoolers and would have loved something like Slingshot in the world.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Even after our vetting, matching and your interview with the candidate, after a few weeks if it becomes clear that the intern is not a great fit, please reach out to us and we will re-assign you another intern at no additional charge.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">How is Slingshot different?</h1>
+                                <h1 className="text-gray-700 tracking-wide">Why don't I just use Fiverr?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 6 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -183,14 +183,14 @@ function StartupFAQs() {
                             {show === 6 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Unlike other education programs that charge kids thousands of dollars and hand a certificate, at Slingshot we've flipped the bottle and change the game. We truly respect high school talent for what it's worth. Jump on!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Unlike contracting services, we provide short-term talent that can fully integrate and collaborate with your team. These are high quality engineers who just happen to be young, but are motivated for all the right reasons and come to you at fractional costs of someone with the same competency. Good luck finding all that on Fiverr.</p>
                                     </li>
                                 </ul>
                             )}
                         </div>
                         <div>
                             <div className="flex py-2 xl:py-4 mb-4 justify-between items-center border-b border-gray-200">
-                                <h1 className="text-gray-700 tracking-wide">I love the mission. Can I join the team?</h1>
+                                <h1 className="text-gray-700 tracking-wide">I love the mission. How can I help?</h1>
                                 <div data-menu className="cursor-pointer">
                                     {show === 7 ? (
                                         <svg onClick={() => setShow(null)} xmlns="http://www.w3.org/2000/svg" aria-label="Hide" className="icon icon-tabler icon-tabler-chevron-up" width={28} height={28} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#718096" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -208,7 +208,7 @@ function StartupFAQs() {
                             {show === 7 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100% We're always looking for motivated folks who want to change the world with us. Send an email at info@slingshotmentoring.com</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">We're changing how people think. It's hard. If you love the mission we're on, do consider spreading the word about us to fellow founders and founder networks. We'd truly appreciate it!</p>
                                     </li>
                                 </ul>
                             )}
@@ -216,7 +216,7 @@ function StartupFAQs() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
