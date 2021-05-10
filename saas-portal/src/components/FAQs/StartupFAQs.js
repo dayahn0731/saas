@@ -31,7 +31,7 @@ function StartupFAQs() {
                             {show === 0 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Nope. Not at all. Interns are available for work full-time / part-time throughout the year.</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">No. Interns are available for work full-time / part-time throughout the year.</p>
                                     </li>
                                 </ul>
                             )}
@@ -56,7 +56,7 @@ function StartupFAQs() {
                             {show === 1 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Our interview process parallels those conducted at top FAANG companies. Between our team, we've given ~500 tech interviews and worked at several startups. We know what you're looking for. Plus if you have particular technical skills that you're looking for, we incorporate that too!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Our interview processes parallel those conducted at top FAANG companies. Between our team, we've given ~500 tech interviews and worked at several startups. We know what you're looking for. Plus if you have particular technical skills that you're looking for, we incorporate that too!</p>
                                     </li>
                                 </ul>
                             )}
