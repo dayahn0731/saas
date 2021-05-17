@@ -23,10 +23,10 @@ function Hero() {
                             <p className="lg:text-2xl text-gray-600 font-light leading-relaxed pt-6 mt-4 w-5/6">Are you itching to make real-world impact at a cutting-edge startup? At Slingshot, we scout and identify the world's smartest high school tech talent who want to change the industry status quo.</p>
                             <div className="mt-12 flex flex-wrap">
                                 <div className="mr-6 mt-5 sm:mt-0 md:mt-5 lg:mt-0">
-                                    <button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl"><a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">Get started</a></button>
+                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl">Get started</button></a>
                                 </div>
                                 <div className="mt-5 sm:mt-0 md:mt-5 lg:mt-0">
-                                    <button className="focus:outline-none transition duration-150 ease-in-out hover:bg-white-200 rounded border border-yellow-600 text-yellow-600 px-16 py-4 text-xl"><a href={routes.DISCORD_INVITE_LINK}>Join our discord</a></button>
+                                    <a href={routes.DISCORD_INVITE_LINK}><button className="focus:outline-none transition duration-150 ease-in-out hover:bg-white-200 rounded border border-yellow-600 text-yellow-600 px-16 py-4 text-xl">Join our discord</button></a>
                                 </div>
                             </div>
                         </div>

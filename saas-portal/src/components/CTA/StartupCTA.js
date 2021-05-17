@@ -90,7 +90,7 @@ function StartupCTA() {
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-gray-600">High schoolers of today are more <strong>precocious</strong>, <strong>skilled</strong> and <strong>smarter</strong> than ever. Their talent is going completely unnoticed simply due to age bias and/or lack of college credentials. But, Slingshot interns are challenging the status quo and have proven themselves even <strong>better</strong> than entry-level engineers.</p>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-gray-600">The world's <strong>changing</strong>. We recognize it, and it's time for you to get ahead on the curve as well.</p>
                         <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">
-                        <button className=" hover:opacity-90 text-base font-bold bg-yellow-500 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">I'm sold! Sign me up.</button>
+                            <button className=" hover:opacity-90 text-base font-bold bg-yellow-500 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">I'm sold! Sign me up.</button>
                         </a>
                     </div>
                 </div>
