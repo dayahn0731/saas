@@ -68,7 +68,7 @@ function LandingNavbar() {
                                     </NavLink>
                                 </li>
                                 <li className="flex items-center">
-                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0">Get started</button></a>
+                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0">Get Started</button></a>
                                 </li>
                              </ul>
                         </div> 

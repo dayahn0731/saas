@@ -9,15 +9,15 @@ function InternHowItWorks() {
                 <section className="mx-auto container pt-20">
                     <div className="px-4 lg:px-0">
                         <div className="flex items-center flex-col px-4">
-                            <h2 className="text-4xl lg:text-5xl pt-4 font-extrabold text-center leading-tight text-gray-800 lg:w-9/12 md:w-10/12">No more busy paper-work internships.</h2>
+                            <h2 className="text-4xl lg:text-5xl pt-4 font-extrabold text-center leading-tight text-yellow-400 lg:w-9/12 md:w-10/12">No more busy paper-work internships.</h2>
                             <h2 className="text-5xl lg:text-6xl pt-6 font-extrabold text-center leading-tight text-gray-800 lg:w-9/12 md:w-10/12">This is the real deal.</h2>
                         </div>
                     </div>
                 </section>
-                <section className="bg-indigo-700 py-12 mt-20">
+                <section className="bg-yellow-400 py-12 mt-20">
                     <div className="px-4 lg:px-0">
                         <div className="mx-auto container flex flex-wrap px-2 md:px-24">
-                            <div className="flex sm:w-full md:w-1/2 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pb-10 lg:pt-10">
+                            <div className="flex sm:w-full md:w-1/2 lg:border-r md:border-r sm:border-r-0 border-white pb-10 lg:pt-10">
                                 <div className="mr-5 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" />
@@ -44,7 +44,7 @@ function InternHowItWorks() {
                                     <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">Beyond redefining the industry status-quo, and putting your skills to the real test, you can also receive compensation for your work.</p>
                                 </div>
                             </div>
-                            <div className="flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
+                            <div className="flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-white pt-10 lg:pb-20">
                                 <div className="mr-5 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" />
@@ -60,7 +60,7 @@ function InternHowItWorks() {
                                     <p className="text-lg text-white leading-normal xl:w-11/12 pt-2">We're spread across 20+ countries and attract the best high school programmers from every corner of the planet.</p>
                                 </div>
                             </div>
-                            <div className="flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
+                            <div className="flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-white pt-10 lg:pb-20">
                                 <div className="sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" />

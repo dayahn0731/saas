@@ -50,8 +50,8 @@ function InternTestimonials() {
     });
     return (
         <>
-            <div className="relative py-4 md:py-24 lg:py-36 bg-black">
-                <div className="w-full xl:px-8 px-4 lg:flex-row flex flex-col-reverse items-center justify-between mx-auto container relative">
+            <div className="relative py-24 bg-gray-200">
+                <div className="w-full xl:px-8 lg:flex-row flex-col-reverse flex items-center justify-between mx-auto container relative">
                     <div className="w-full lg:w-1/2 relative">
                         <div className="slider">
                             <div className="slide-ana">
@@ -66,7 +66,7 @@ function InternTestimonials() {
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
-                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
@@ -78,7 +78,7 @@ function InternTestimonials() {
                                             </div>
                                             <p className="text-base f-m-m mt-3">I got so much <b>ownership</b> on what I was working on - something that you don't always get. My intern project was <b>extremely personalized & catered</b> to my core skills & interests.</p>
                                         </div>
-                                        <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
+                                        <div className="lg:w-1/2 relative bg-yellow-400 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -89,7 +89,7 @@ function InternTestimonials() {
                                                 <img src={tajwarPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col text-white">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">Tajwar Rahman</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High school</h3>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High School</h3>
                                                 </div>
                                             </div>
                                             <p className="text-base f-m-m mt-3 text-white">Slingshot is a <b>win-win</b> - You get to intern and learn under <b>brilliant people</b> who went to <b>top colleges</b> and <b>great companies</b>. To top it off, it's <b>100% free</b>.</p>
@@ -99,14 +99,14 @@ function InternTestimonials() {
                                         <div className="absolute right-0 top-0 -mt-6">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                 <path fill="none" d="M0 0h24v24H0z" />
-                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
                                             <img src={aditiPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
                                                 <h2 className="text-base f-m-m ml-4 font-semibold">Aditi</h2>
-                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High school</h3>
+                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High School</h3>
                                             </div>
                                         </div>
                                         <p className="text-base f-m-m mt-3">Working at Slingshot has been an <b>extremely rewarding</b> experience - I’ve learned more from my 3 months as an intern here than <b>any other program or camp</b> I’ve attended.</p>
@@ -123,19 +123,19 @@ function InternTestimonials() {
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
-                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
                                                 <img src={davidPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
                                                     <h2 className="text-base f-m-m ml-4 font-semibold">David Chen</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High school</h3>
+                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High School</h3>
                                                 </div>
                                             </div>
                                             <p className="text-base f-m-m mt-3">Slingshot is bringing students with <b>shared passions</b> together to learn and contribute to amazing startups. It is a great place for <b>collaboration</b> and finding what you love.</p>
                                         </div>
-                                        <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
+                                        <div className="lg:w-1/2 relative bg-yellow-400 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -156,7 +156,7 @@ function InternTestimonials() {
                                         <div className="absolute right-0 top-0 -mt-6">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                 <path fill="none" d="M0 0h24v24H0z" />
-                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
@@ -180,7 +180,7 @@ function InternTestimonials() {
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
-                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                    <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                                 </svg>
                                             </div>
                                             <div className="flex items-center">
@@ -192,7 +192,7 @@ function InternTestimonials() {
                                             </div>
                                             <p className="text-base f-m-m mt-3">My work at Slingshot has allowed me to explore domains in tech I hadn't even dreamt of. It was a true industry experience that allowed me to really discover my true potential as a software engineer.</p>
                                         </div>
-                                        <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
+                                        <div className="lg:w-1/2 relative bg-yellow-400 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -213,7 +213,7 @@ function InternTestimonials() {
                                         <div className="absolute right-0 top-0 -mt-6">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={50} height={50}>
                                                 <path fill="none" d="M0 0h24v24H0z" />
-                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(76,81,191,1)" />
+                                                <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z" fill="rgba(251,191,36,1)" />
                                             </svg>
                                         </div>
                                         <div className="flex items-center">
@@ -230,19 +230,19 @@ function InternTestimonials() {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:pl-24 xl:pl-48">
-                        <h1 className="lg:text-5xl text-2xl f-m-w text-white font-bold">We can't stop hearing...</h1>
-                        <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
+                        <h1 className="lg:text-5xl text-2xl f-m-w text-black font-bold">We can't stop hearing...</h1>
+                        <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-black">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
                         <div className="flex items-center">
-                            <div id="prev" className="cursor-pointer  ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                            <div id="prev" className="cursor-pointer  ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-black">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
                                     <line x1={5} y1={12} x2={9} y2={16} />
                                     <line x1={5} y1={12} x2={9} y2={8} />
                                 </svg>
                             </div>
-                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-black">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
                                     <line x1={15} y1={16} x2={19} y2={12} />

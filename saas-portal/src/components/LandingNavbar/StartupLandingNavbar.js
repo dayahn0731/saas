@@ -31,7 +31,7 @@ function StartupLandingNavbar() {
                             </div>
                             <ul className="flex md:flex text-3xl md:text-base lg:text-base lg:flex flex-col md:flex-row lg:flex-row justify-center items-center fixed md:relative lg:relative top-0 bottom-0 left-0 right-0 bg-gray-100 z-20">
                                 <li className="flex items-center">
-                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0">Get started</button></a>
+                                    <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none transition duration-150 ease-in-out hover:opacity-80 rounded border border-yellow-500 bg-yellow-500 text-white px-6 py-3 text-sm mt-10 md:mt-0">Get Started</button></a>
                                 </li>
                              </ul>
                         </div> 

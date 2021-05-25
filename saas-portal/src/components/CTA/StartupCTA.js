@@ -3,7 +3,7 @@ import React from "react";
 function StartupCTA() {
     return (
         <>
-            <div className="relative py-16 px-4 bg-white">
+            <div className="relative py-16 px-8 bg-white">
                 <div className="w-full lg:flex-row flex flex-col-reverse items-center justify-between mx-auto container relative xl:px-0 px-4">
                     <div className="lg:w-1/2 mt-16 lg:flex">
                         <div className="flex flex-col">
@@ -24,12 +24,12 @@ function StartupCTA() {
                                 <div>
                                     <h1 className="font-semibold text-2xl f-m-m pt-10">
                                         100% Satisfaction<br />
-                                        Affordable pricing.
+                                        Affordable Pricing.
                                     </h1>
                                     <p className="text-base font-normal f-m-m leading-loose py-8">We only charge you a placement fee <strong>after</strong> 12 weeks when your intern's work is deemed <strong>successful</strong>. <a href="mailto:info@slingshotmentoring.com?cc=akshatp.cs@gmail.com,mayankj.work@gmail.com&subject=I'm%20interested%20in%20hiring%20from%20Slingshot!&body=Hey%20Slingshot%2C%0D%0A%0D%0AI%20checked%20out%20the%20website%20and%20would%20love%20to%20move%20forward.%20What%20are%20the%20next%20steps%3F" target="_blank" rel="noopener noreferrer"><u>Get a quote today!</u></a></p>
                                 </div>
                             </div>
-                            <div className="rounded bg-indigo-700 px-4 xl:px-8 mb-8 lg:mb-0 shadow-md">  
+                            <div className="rounded bg-yellow-400 px-4 xl:px-8 mb-8 lg:mb-0 shadow-md">  
                                 <div className="mt-8">
                                     <svg width={80} height={80} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M40.0002 50.5417L28.6849 56.4909L30.8464 43.8904L21.6797 34.9676L34.3297 33.1342L39.9874 21.6704L45.645 33.1342L58.295 34.9676L49.1284 43.8904L51.2899 56.4909L40.0002 50.5417Z" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
@@ -38,15 +38,15 @@ function StartupCTA() {
                                 </div>
                                 <div>
                                     <h1 className="font-semibold text-2xl f-m-m pt-10 text-white">
-                                        Unparalleled commitment<br />
-                                        For real.
+                                        Unparalleled Commitment<br />
+                                        For Real.
                                     </h1>
                                     <p className="text-base font-normal f-m-m leading-loose py-8 text-white">Unlike contractors and freelancers, our talent is motivated by the <strong>opportunity</strong>, your <strong>team</strong>, <strong>product</strong> and <strong>not</strong> your pay.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col lg:ml-10 ml-0 lg:mt-10 mt-0">
-                            <div className="rounded bg-indigo-700 lg:mt-20 mt-0 px-4 xl:px-8 box-shadow-light">
+                            <div className="rounded bg-yellow-400 lg:mt-20 mt-0 px-4 xl:px-8 box-shadow-light">
                                 <div className="mt-8">
                                     <svg width={80} height={80} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M40.0002 50.5417L28.6849 56.4909L30.8464 43.8904L21.6797 34.9676L34.3297 33.1342L39.9874 21.6704L45.645 33.1342L58.295 34.9676L49.1284 43.8904L51.2899 56.4909L40.0002 50.5417Z" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
@@ -58,7 +58,7 @@ function StartupCTA() {
                                         High Quality Talent<br />
                                         Assured.
                                     </h1>
-                                    <p className="text-base font-normal f-m-m leading-loose py-8 text-white">Slingshot interns go through a proprietary <strong>3-stage</strong>, <strong>FAANG</strong>-level interview process, <strong>customisable</strong> to your needs.</p>
+                                    <p className="text-base font-normal f-m-m leading-loose py-8 text-white">Slingshot interns go through a proprietary <strong>3-stage</strong>, <strong>FAANG</strong>-level interview process, <strong>customizable</strong> to your needs.</p>
                                 </div>
                             </div>
                             <div className="rounded bg-white lg:mt-8 mt-8 px-4 xl:px-8 shadow-md">
@@ -76,8 +76,8 @@ function StartupCTA() {
                                 </div>
                                 <div>
                                     <h1 className="font-semibold text-2xl f-m-m pt-10">
-                                        Find The Perfect Fit<br />
-                                        For your team. 
+                                        Find the Perfect Fit<br />
+                                        For Your Team. 
                                     </h1>
                                     <p className="text-base font-normal f-m-m leading-loose py-8">We know hiring is hard. Beyond our promises above, our AI provides you with <strong>only the best-fit mutual matches</strong>.</p>
                                 </div>
@@ -85,12 +85,12 @@ function StartupCTA() {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:pl-40 xl:pl-56">
-                        <h1 className="lg:text-5xl text-3xl f-m-w font-bold">High schoolers as engineers?</h1>
+                        <h1 className="lg:text-5xl text-3xl f-m-w font-bold">High Schoolers as Engineers?</h1>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-gray-600">We know what you're thinking, but hear us out :)</p>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-gray-600">High schoolers of today are more <strong>precocious</strong>, <strong>skilled</strong> and <strong>smarter</strong> than ever. Their talent is going completely unnoticed simply due to age bias and/or lack of college credentials. But, Slingshot interns are challenging the status quo and have proven themselves even <strong>better</strong> than entry-level engineers.</p>
                         <p className="lg:text-base text-sm f-m-m leading-loose mt-3 mb-8 text-gray-600">The world's <strong>changing</strong>. We recognize it, and it's time for you to get ahead on the curve as well.</p>
                         <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv">
-                            <button className=" hover:opacity-90 text-base font-bold bg-yellow-500 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">I'm sold! Sign me up.</button>
+                            <button className=" hover:opacity-90 text-base font-bold bg-yellow-500 rounded f-m-m md:py-4 py-2 px-4 md:px-8 foucus:outline-none text-white">I'm Sold! Sign Me Up.</button>
                         </a>
                     </div>
                 </div>

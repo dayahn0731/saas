@@ -106,7 +106,7 @@ function InternFAQs() {
                             {show === 3 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to info@slingshotmentoring.com to schedule a meeting!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to <a href="mailto:info@slingshotmentoring.com" className="w-full text-right">info@slingshotmentoring.com</a> to schedule a meeting!</p>
                                     </li>
                                 </ul>
                             )}
@@ -208,7 +208,7 @@ function InternFAQs() {
                             {show === 7 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100% We're always looking for motivated folks who want to change the world with us. Send an email at info@slingshotmentoring.com</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100%! We're always looking for motivated folks who want to change the world with us. Send an email at <a href="mailto:info@slingshotmentoring.com" className="w-full text-right">info@slingshotmentoring.com</a>.</p>
                                     </li>
                                 </ul>
                             )}

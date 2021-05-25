@@ -106,7 +106,7 @@ function StartupFAQs() {
                             {show === 3 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">We're currently an invite-only platform. To start onboarding, fill out this <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><u>form</u></a></p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">We're currently an invite-only platform. To start onboarding, fill out this <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><u>form</u></a>.</p>
                                     </li>
                                 </ul>
                             )}
